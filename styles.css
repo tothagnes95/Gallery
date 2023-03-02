@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.picture {
+    width: 800px;
+    height: 400px;
+    background-image: url("/images/Lisboa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.opal {
+    width: 800px;
+    height: 100px;
+    position: relative;
+    top: 75%;
+    background: black;
+    opacity: 0.7;
+    color: white;
+}
+.right {
+    background-image: url("/images/arrow.svg");
+  }
+.arrow {
+    height: 400px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.left {
+    background-image: url("/images/arrow.svg");
+    transform: rotate(0.5turn);
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
